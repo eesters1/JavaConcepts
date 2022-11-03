@@ -19,13 +19,14 @@ public class Menu {
         switch(menuChoice){         //Direct user to proper page or submenu
             case 1: HistoryOfJava.main();
                 break;
-            case 2: ProsAndCons.main();
+            case 2: ProsAndCons.main(); //Not filled yet
                 break;
-            case 3: Fundamentals.main();
+            case 3: Fundamentals.main(); //Not filled yet
                 break;
-            case 4: Algorithms.main();
+            case 4: Algorithms.main(); //Not filled yet
                 break;
             default: System.out.println("Please choose a valid option!");
+                Menu.main();        //Reprints menu w/ invalid option
         }
     }
 }

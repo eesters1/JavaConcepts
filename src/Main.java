@@ -11,6 +11,13 @@ public class Main {
 
             System.out.println("\nWould you like to view another topic? (Y/N)\n");
             repeat = sc.nextLine(); //Store selected menu choice
+
+            switch(repeat){
+                case "N":
+                        break;
+                default: System.out.println("Please choose a valid option!");
+                    repeat = sc.nextLine(); //Store selected menu choice
+            }
         }
 
         System.out.println("\nThank you for visiting The Java Dictionary!\n"); //Test to ensure end is reached
