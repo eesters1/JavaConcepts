@@ -9,7 +9,7 @@ public class Main {
         while(repeat.equals("Y")){
             Menu.main(); //Display menu choices
 
-            System.out.println("\nWould you like to view another topic? (Y/N)\n");
+            System.out.println("\nWould you like to view another Java topic? (Y/N)\n");
             repeat = sc.nextLine(); //Store selected menu choice
 
             switch(repeat){
