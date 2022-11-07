@@ -20,6 +20,7 @@ public class Main {
             }
         }
 
-        System.out.println("\nThank you for visiting The Java Dictionary!\n"); //Test to ensure end is reached
+        System.out.println("\nThank you for visiting The Java Dictionary!\n" +
+                "To learn more about Java please vist https://www.w3schools.com/java/default.asp"); //Test to ensure end is reached
     }
 }
