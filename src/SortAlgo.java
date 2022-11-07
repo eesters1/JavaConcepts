@@ -65,6 +65,8 @@ public class SortAlgo {
                 "    return (i + 1)\n" +
                 "end procedure\n" +
                 "*** Quick Sort Output ***\n");
-        quickSortMain.main(args);
+        quickSortMain.main(args); //execute quick sort
+        System.out.println("*** Reference ***\n" +
+                "https://www.softwaretestinghelp.com/quicksort-in-java/");
     }
 }

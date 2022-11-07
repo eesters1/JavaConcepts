@@ -11,4 +11,12 @@ public class GraphAlgo {
 
         Algorithms.repeat();
     }
+    /*
+    public static void linearSearchText() {
+        System.out.println("*** Brief Explanation ***\n" +
+                "*** Pseudocode ***" +
+                "*** Quick Sort Output ***");
+        //execute linear search
+        System.out.println("*** Reference ***");
+    }*/
 }
